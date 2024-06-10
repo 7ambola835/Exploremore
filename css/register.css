@@ -1,0 +1,112 @@
+@import "general.css";
+
+.banner,
+#sign-up-form {
+  text-align: left;
+  min-height: 100vh;
+}
+
+.banner {
+  padding: 6rem;
+  grid-column: span 3;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-accent);
+  /*clip-path: polygon(0 0, 85% 0, 72% 100%, 0% 100%);*/
+  clip-path: polygon(0 0, 96.24% 0, 82.33% 100%, 0% 100%);
+}
+
+.banner > img {
+  margin-top: auto;
+  max-width: 75%;
+  display: block;
+}
+
+.banner > h1 {
+  margin-top: 4rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.logo > .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#sign-up-form {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 0;
+}
+
+#sign-up-form > .container {
+  gap: 4rem;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.b {
+  grid-column: 2/ 3;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: var(--color-heading-light);
+  font-size: 1.15em;
+}
+
+.gender-label {
+  display: inline;
+}
+
+.input--block {
+  width: 100%;
+}
+
+input {
+  padding: 0.25em 0;
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #999;
+  outline: none;
+  color: var(--color-accent-light);
+}
+
+input[name="gender"] {
+  margin-right: 0.5rem;
+}
+
+.gender-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.gender-container > .title {
+  display: block;
+}
+
+#hear-about {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+.terms-and-conditions {
+  margin: 4rem 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

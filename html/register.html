@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>WhereToGo | Register</title>
+
+    <!-- CSS Stylesheet -->
+    <link href="../css/index.css" rel="stylesheet">
+
+</head>
+<body>
+
+<main id="main">
+    <div class="wrapper grid col-6">
+        <div class="banner">
+            <nav class="logo">
+                <a class="logo--register nav-link" href="./index.html">WhereToGo</a>
+            </nav>
+
+            <h1 class="title--secondary">Register now to enjoy all features!</h1>
+
+            <img alt="" src="../images/illustrations/welcome.svg">
+        </div>
+
+        <form id="sign-up-form">
+            <div class="container grid col-2">
+                <div class="a">
+                    <label for="first-name">First name</label>
+                    <input class="sign-up-input input--block" id="first-name" name="firstName" required type="text">
+                </div>
+
+                <div class="b">
+                    <label for="last-name">Last name</label>
+                    <input class="sign-up-input input--block" id="last-name" name="lastName" required type="text">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input class="sign-up-input input--block" id="email" name="email" required type="email">
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input class="sign-up-input input--block" id="password" name="password" required type="password">
+                </div>
+
+                <div>
+                    <label class="title">Gender</label>
+                    <div class="gender-container">
+                        <div>
+                            <input id="male" name="gender" type="radio" value="male">
+                            <label class="gender-label" for="male">Male</label>
+                        </div>
+
+                        <div>
+                            <input id="female" name="gender" type="radio" value="male">
+                            <label class="gender-label" for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="hear-about">Where did you hear about us?</label>
+                    <select id="hear-about" name="platforms">
+                        <option autofocus disabled>Please select one</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Google">Google</option>
+                        <option value="Friend">Friend</option>
+                        <option value="OurBlog">Our Blog</option>
+                        <option value="Snapchat">Snapchat</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="terms-and-conditions">
+                <div class="center">
+                    <input id="conformation" name="conformation" required type="checkbox">
+                    <label class="conformation-label" for="conformation">I strongly hereby that I am 18 years or
+                        older
+                        and all the provided
+                        information is correct. </label>
+                </div>
+
+                <div class="center">
+                    <input id="terms" name="terms" required type="checkbox">
+                    <label class="terms-label" for="terms">I have read the <a href="#">terms and conditions</a> and
+                        I accept them.</label>
+                </div>
+            </div>
+
+            <input class="btn btn--accent sign-up-btn" type="submit" value="Sign up">
+        </form>
+    </div>
+</main>
+
+</body>
+</html>

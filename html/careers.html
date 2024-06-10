@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>WhereToGo | Careers</title>
+
+    <!-- CSS Stylesheet -->
+    <link href="../css/general.css" rel="stylesheet" />
+
+    <style>
+      #hero .input-container {
+        max-width: 75%;
+        margin: 2.5rem auto 0;
+      }
+
+      .input-container > .input {
+        word-spacing: 3px;
+      }
+
+      .hero-img {
+        margin-top: 4rem;
+        max-width: 85%;
+        border-radius: var(--border-radius);
+      }
+
+      #why-to .title--secondary {
+        margin-bottom: 4rem;
+      }
+
+      .why-to-img {
+        max-width: 90%;
+      }
+
+      .benefits-container {
+        text-align: left;
+      }
+
+      .benefits-list {
+        margin-top: 2rem;
+      }
+
+      .benefits-list > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        font-size: 1.5em;
+      }
+
+      .apply-btn {
+        margin-top: 4rem;
+      }
+
+      .posts {
+        gap: 1rem;
+        justify-content: stretch;
+        align-items: stretch;
+        margin-top: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav-list list">
+            <li class="nav-item logo">
+              <a class="nav-link" href="./">WhereToGo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./location.html">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+
+            <li class="nav-buttons">
+              <a class="btn" href="./register.html">Sign in</a>
+              <a class="btn btn--accent" href="./register.html">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container grid col-2">
+        <div class="">
+          <h1 class="title--primary">Join a workplace of talents!</h1>
+
+          <div class="input-container">
+            <input
+              class="input"
+              placeholder="Search for opening jobs"
+              type="text"
+            />
+            <button class="icon-container icon--accent">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+        <img alt="" class="hero-img" src="../images/workplace.svg" />
+      </div>
+    </section>
+
+    <!-- Why to Work With Us Section-->
+    <section id="why-to">
+      <div class="container">
+        <p class="title--small">Special benefits</p>
+        <h2 class="title--secondary">Why to work for us</h2>
+
+        <div class="grid col-2">
+          <img
+            alt=""
+            class="why-to-img"
+            src="../images/why-to-work-with-us.svg"
+          />
+
+          <div class="benefits-container">
+            <h3 class="title--territory">Our employees enjoy</h3>
+            <ul class="list list--vertical benefits-list">
+              <li>
+                <ion-icon class="icon" name="cash-outline"></ion-icon>
+                <span>Competitive salaries</span>
+              </li>
+              <li>
+                <ion-icon class="icon" name="medkit-outline"></ion-icon>
+                <span>Health insurance</span>
+              </li>
+              <li>
+                <ion-icon class="icon" name="time-outline"></ion-icon>
+                <span>Flexible working hours</span>
+              </li>
+              <li>
+                <ion-icon class="icon" name="people-outline"></ion-icon>
+                <span>Variety of offices and teams to choose from</span>
+              </li>
+              <li>
+                <ion-icon class="icon" name="add-outline"></ion-icon>
+                <span>Other perks</span>
+              </li>
+            </ul>
+
+            <a
+              class="btn btn--outline btn--block apply-btn"
+              href="#opening-jobs"
+              >Apply now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Jobs -->
+    <section id="opening-jobs">
+      <div class="container">
+        <p class="title--small">Explore opportunities</p>
+        <h2 class="title--secondary">Come build the future with us!</h2>
+
+        <div class="grid col-3 posts">
+          <div class="job-post">
+            <p class="post-title">Software engineer</p>
+            <p class="requirements">Position Listing:</p>
+            <ol class="list list--vertical">
+              <li>Master in Computer Science</li>
+              <li>4+ years experience in java</li>
+              <li>2+ experience in spring boot</li>
+              <li>Willing to learn</li>
+              <li>Fits the company's culture</li>
+            </ol>
+            <footer class="post-footer">
+              <p>
+                <ion-icon class="icon" name="cash-outline"></ion-icon>
+                <span class="salary">$95,000 - $115,000</span>
+              </p>
+              <a class="btn btn--outline" href="">Apply now</a>
+            </footer>
+          </div>
+
+          <div class="job-post">
+            <p class="post-title">Software engineer</p>
+            <p class="requirements">Position Listing:</p>
+            <ol class="list list--vertical">
+              <li>Master in Computer Science</li>
+              <li>4+ years experience in java</li>
+              <li>2+ experience in spring boot</li>
+              <li>Willing to learn</li>
+              <li>Fits the company's culture</li>
+            </ol>
+            <footer class="post-footer">
+              <p>
+                <ion-icon class="icon" name="cash-outline"></ion-icon>
+                <span class="salary">$95,000 - $115,000</span>
+              </p>
+              <a class="btn btn--outline" href="">Apply now</a>
+            </footer>
+          </div>
+
+          <div class="job-post">
+            <p class="post-title">Software engineer</p>
+            <p class="requirements">Position Listing:</p>
+            <ol class="list list--vertical">
+              <li>Master in Computer Science</li>
+              <li>4+ years experience in java</li>
+              <li>2+ experience in spring boot</li>
+              <li>Willing to learn</li>
+              <li>Fits the company's culture</li>
+            </ol>
+            <footer class="post-footer">
+              <p>
+                <ion-icon class="icon" name="cash-outline"></ion-icon>
+                <span class="salary">$95,000 - $115,000</span>
+              </p>
+              <a class="btn btn--outline" href="">Apply now</a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container grid col-6">
+        <ul class="list list--vertical company-info">
+          <li class="logo">
+            <a class="nav-link" href="index.html">WhereToGo</a>
+          </li>
+          <li class="description">
+            Our customers satisfaction is our highest priority.
+          </li>
+          <li class="social-media">
+            <div class="icon-container icon--accent">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+
+            <div class="icon-container icon--accent">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+
+            <div class="icon-container icon--accent">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+
+            <div class="icon-container icon--accent">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="list list--vertical footer-nav-list">
+          <li><h4>About</h4></li>
+          <li><a class="nav-link" href="./about.html">About Us</a></li>
+          <li><a class="nav-link" href="#">Features</a></li>
+          <li><a class="nav-link" href="#">News</a></li>
+          <li><a class="nav-link" href="#">Menu</a></li>
+        </ul>
+
+        <ul class="list list--vertical footer-nav-list">
+          <li><h4>Company</h4></li>
+          <li><a class="nav-link" href="#">Why Us?</a></li>
+          <li>
+            <a class="nav-link" href="./parteners.html">Partner With Us</a>
+          </li>
+          <li><a class="nav-link" href="./faq.html">FAQ</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+        </ul>
+
+        <ul class="list list--vertical footer-nav-list">
+          <li><h4>Support</h4></li>
+          <li><a class="nav-link" href="#">Account</a></li>
+          <li><a class="nav-link" href="#">Feedback</a></li>
+          <li><a class="nav-link" href="#">Suggestions</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="contact-us">
+          <h4>Contact us</h4>
+          <p>We are always pleased to hear from our customers.</p>
+          <a class="link" href="./contact.html">send us an email</a>
+        </div>
+      </div>
+
+      <p class="copyright">
+        <small>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </small>
+      </p>
+    </footer>
+
+    <!-- Ion Icons CDN -->
+    <script
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      type="module"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

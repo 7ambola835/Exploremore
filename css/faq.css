@@ -1,0 +1,114 @@
+/* ========================= */
+/* ===    Ibrahim   === */
+/* ========================= */
+@import "general.css";
+
+main {
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #707070;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5e5d5d;
+}
+
+.faq {
+  padding: 20px 30px;
+  border: 1px solid rgba(0 0 0 / 0.1);
+  border-radius: 5px;
+  color: #979797;
+  position: relative;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.faq .faq_text {
+  width: 90%;
+}
+
+.btn2 {
+  color: #5e5d5d;
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  font-weight: 400;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+/* Hide p tags */
+.faq.open h2 {
+  color: #00848f;
+}
+
+.faq p {
+  display: none;
+  font-weight: 300;
+}
+
+.faq.open p {
+  display: block;
+}
+
+.faq.open .btn {
+  color: #00848f;
+}
+
+.div_par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section_par {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+.section_par h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.container1_par {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.box_par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*width: 200;*/
+  /*height: 150;*/
+  padding: 1rem;
+  margin: 1em 0.75em;
+  background-color: #f6f7f6;
+  /*box-shadow: 18px 17px 20px rgb(0 0 0/ 12%, green, blue);*/
+  transition: 1s;
+}
+
+.box_par img {
+  height: 100px;
+  width: 200px;
+}
+
+.box_par:hover {
+  transform: scaleX(1.2);
+}
